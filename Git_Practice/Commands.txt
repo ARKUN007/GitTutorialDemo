@@ -54,5 +54,17 @@ git commit --amend
 
 this command is used to amend/change in old commit;
 
+-------------------------------------------------------------
 
+git restore --staged first_renamed.txt
 
+this command is to unstage the file
+
+--------------------------------------------
+do not run the below command before commit
+
+git checkout -- first_renamed.txt
+
+this command is to undo the last commit or get back to the last changes
+
+-------------------------------------------------------------------------------------
