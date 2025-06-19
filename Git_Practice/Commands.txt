@@ -1,0 +1,58 @@
+git status -- To see the status of the files
+
+git init -- to Inialise all files
+
+git add --a or git add . -- To add all the files 
+
+git commit -m "Initial Commit" -- To commit the changes with comment
+
+git log --to check the log
+
+rm -rf .git  -- To delete all the git files
+
+git clone https://github.com/tensorflow/tensorflow.git
+
+git clone https://github.com/tensorflow/tensorflow.git -- command to copy code from github url of the code from github repository
+
+git diff
+
+git diff --staged
+
+git commit -a -m "direct commit" -- Saari tracked file ko stage karke unka 1 commit bana deta hai, but untracked file ko direct commit nahi kar sakte.
+
+git rm --cached git_pptxx.pptx -- this command is to untrack the file
+
+git log -p -- this command will show changes in the files
+
+git log -p -3 -- this command only show 3 commit along with difference
+
+git log --stat -- this command show difference in short
+
+git log --pretty=oneline  -- to show the log in one line easy to find spesific commit
+
+git log --pretty=full -- to show the log with all the details
+
+git log --pretty=short -- to show commit with limited details
+
+git log --since=2.days  -- It will show the log for past two days
+
+git log --since=2.months -- It will show the log for past two months
+
+git log --since=2.years -- It will show the log for past two years
+
+-----------------------------------------------------------------------------------
+git log --pretty=format:"%h --%an"
+
+%h -- hash commit
+
+%an -- author name
+
+%ae -- author email
+---------------------------------------------------------------------------------
+
+git commit --amend
+
+this command is used to amend/change in old commit;
+
+
+
