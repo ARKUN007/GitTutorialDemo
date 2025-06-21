@@ -43,11 +43,11 @@ git log --since=2.years -- It will show the log for past two years
 -----------------------------------------------------------------------------------
 git log --pretty=format:"%h --%an"
 
-%h -- hash commit
+%h --hash commit
 
-%an -- author name
+%an --author name
 
-%ae -- author email
+%ae --author email
 ---------------------------------------------------------------------------------
 
 git commit --amend
@@ -68,3 +68,7 @@ git checkout -- first_renamed.txt
 this command is to undo the last commit or get back to the last changes
 
 -------------------------------------------------------------------------------------
+git checkout -f
+
+this command is used to undo last changes   
+
